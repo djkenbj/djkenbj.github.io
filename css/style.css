@@ -1,0 +1,288 @@
+
+
+.main_nav
+{
+    position: fixed;
+    padding-top: 1.5rem;
+    background: #01202c;
+    padding-left: 3.5rem;
+    text-align: left;
+    z-index: 1000;
+    width: 100%;
+}
+.nav_items
+{
+	height: 100%;
+}
+.nav_items li
+{
+	display: inline-block;
+	margin-left: 35px;
+	height: 100%;
+} 
+.nav_items li a
+{
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 3.5px;
+	height: 100%;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-left: 14px;
+	padding-right: 10px;
+}
+.nav_items li.active a
+{
+	color: #FFFFFF;
+}
+.nav_items li:hover
+{
+	background: #000000;
+}
+.nav_items li:hover a
+{
+	color: #FFFFFF;
+}
+
+.home {
+    background-image: url('../img/uss_discover.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    padding-top: 8rem;
+}
+
+.home h1 {
+    padding-left: 9rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+
+.home h2 {
+    padding-left: 9rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 35px;
+}
+
+.home .btn-light {
+    margin-top: 2rem;
+    margin-left: 9rem;
+    padding-top: 3rem;
+    padding: 0.8rem 1.2rem;
+    text-transform: uppercase;
+    background: #FFF;
+    border: 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.shipinfo {
+    background-image: url('../img/shipinfo.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    padding-top: 8rem;
+}
+
+.shipinfo h3 {
+    text-align: right;
+    padding-right: 9rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+
+.shipinfo h4 {
+    text-align: right;
+    padding-right: 9rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: black;
+    font-size: 35px;
+}
+
+.shipinfo .btn-light {
+    margin-top: 2rem;
+    margin-left: 101rem;
+    padding-top: 3rem;
+    padding: 0.8rem 1.2rem;
+    text-transform: uppercase;
+    background: #4682B4;
+    color: #fff;
+    border: 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.crewmem {
+    background-image: url('../img/crewmem.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    padding-top: 8rem;
+}
+
+.crewmem h1 {
+    padding-left: 9rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: red;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+
+.crewmem h2 {
+    padding-left: 9rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color:red;
+    font-size: 35px;
+}
+
+.crewmem .btn-light {
+    margin-top: 2rem;
+    margin-left: 9rem;
+    padding-top: 3rem;
+    padding: 0.8rem 1.2rem;
+    text-transform: uppercase;
+    background: black;
+    color:red;
+    border: 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.forged {
+    background: #01202c;
+    text-align: center;
+    padding-top: 4rem;
+}
+.forged h2 {
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 0.5rem;
+}
+.forged h2:before {
+    content: '';
+    display: block;
+    width: 10rem;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+    transform: translateX(-50%)
+}
+.forged h3{
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    height: 10px;
+    padding: 1rem;
+    padding-bottom: 5rem;
+}
+
+.forged img{
+    padding: 1rem;
+    border-radius: 15%;
+    padding-bottom: 0.5rem;
+}
+#footer {
+    position: relative;
+    background-color: black;
+}
+
+.footer-logo {
+    padding-top: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.footer-logo>a>img {
+    max-height: 80px;
+}
+.footer-copyright p {
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+.footnav
+{
+    padding-top: 1.5rem;
+    background: #000000;
+    text-align: left;
+    z-index: 1000;
+    width: 100%;
+    color: rgb(199, 199, 199);
+    padding-left: 9rem;
+    font-size: 12px;
+}
+.footnav .nav_items
+{
+	height: 100%;
+}
+.footnav .nav_items li
+{
+	display: inline-block;
+	height: 100%;
+} 
+.footnav .nav_items li a
+{
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 3.5px;
+	height: 100%;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.footnav .nav_items li.active a
+{
+	color: #FFFFFF;
+}
+.footnav .nav_items li:hover
+{
+	background: #000000;
+}
+.footnav .nav_items li:hover a
+{
+	color: #FFFFFF;
+}
